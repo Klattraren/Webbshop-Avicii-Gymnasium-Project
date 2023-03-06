@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@font-face { font-family: Righteous; src: url('Righteous.woff'); } 
+@font-face { font-family: Righteous; font-weight: bold; src: url('Righteous.woff');}
+
+body{   
+    background: #eee;  
+	background-image: url("bilder/loginbc.jpg");
+	 background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+	  
+}  
+#frm{  
+    border: solid gray 1px;  
+    width:500px;  
+    border-radius: 2px;  
+    margin: 120px auto;  
+    background: #cccccc4D;  
+    padding: 50px;
+	
+}
+
+  
+#btn{  
+    color: #fff;  
+    background: #337ab7;  
+    padding: 7px;  
+    margin-left: 70%;  
+}  
+
+
+
+h1{
+	color: white;
+	font-family: 'Righteous', cursive;
+	font-size: 60px;
+	
+}
+h3{
+	color: white;
+	font-family: 'Righteous', cursive;
+	font-size: 40px;
+	
+}
+
+#topleft{
+  position: absolute;
+  top: 8px;
+  left: 16px;
+  font-size: 18px;
+}
+
+
+@media only screen and (max-width: 400px) {
+input {
+ width: 300px;
+  font-size: 20px;
+  margin-bottom: 5vh;
+  border-right: none;
+  border-top: none;
+  border-left: none;
+  background-color:transparent;
+  outline: none;
+  color: white;
+  caret-color: white;
+  font-family: 'Righteous', cursive;
+}
+
+input[type=text]::placeholder {
+  text-align: center;
+  color: white;
+}
+}
+
+@media only screen and (min-width: 401px) {
+input {
+ width: 300px;
+  font-size: 40px;
+  margin-bottom: 5vh;
+  border-right: none;
+  border-top: none;
+  border-left: none;
+  background-color:transparent;
+  outline: none;
+  color: white;
+  caret-color: white;
+  font-family: 'Righteous', cursive;
+}
+
+input[type=text]::placeholder {
+  text-align: center;
+  color: white;
+}
+input[type=password]::placeholder {
+  text-align: center;
+  color: white;
+}
+
+input[type=submit]{
+  text-align: center;
+  color: white;
+  background: rgba(255,255,255,.2);
+  width: 150px;
+  padding: 2vh;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px 4px;
+}
+}

@@ -1,0 +1,49 @@
+<html>  
+<head>  
+    <title>PHP login system</title>   
+    <link rel = "stylesheet" type = "text/css" href = "style.css">
+   
+</head>  
+<body>  
+<a href="http://localhost/avicii/aviciiunofficial.php" target="_self">
+<center><img src="bilder/aviciilogo2.png" width="100" height="100" alt="" id="topleft"></center></a>
+    <div id = "frm">  
+      <center> <h1>Login</h1></center>
+        <form name="f1" action = "authentication.php" onsubmit = "return validation()" method = "POST" >  
+            <p>  
+                <center><input type = "text" id ="user" name  = "user" placeholder="Username"/>  </center>
+            </p>  
+            <p>   
+                <center><input type = "password" id ="pass" name  = "pass" placeholder="Password"/>  </center>
+            </p>  
+            <p>     
+               <center> <input type="submit" name="Submit" value="Login"> </center> 
+			   
+            </p>  
+        </form>  
+    </div>  
+     
+    <script>  
+            function validation()  
+            {  
+                var id=document.f1.user.value;  
+                var ps=document.f1.pass.value;  
+                if(id.length=="" && ps.length=="") {  
+                    alert("User Name and Password fields are empty");  
+                    return false;  
+                }  
+                else  
+                {  
+                    if(id.length=="") {  
+                        alert("User Name is empty");  
+                        return false;  
+                    }   
+                    if (ps.length=="") {  
+                    alert("Password field is empty");  
+                    return false;  
+                    }  
+                }                             
+            }  
+        </script>  
+</body>     
+</html>  

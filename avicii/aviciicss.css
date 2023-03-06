@@ -1,0 +1,452 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@font-face { font-family: Righteous; src: url('Righteous.woff'); } 
+@font-face { font-family: Righteous; font-weight: bold; src: url('Righteous.woff');}
+
+
+body{
+	font-family: 'Roboto', sans-serif;
+	
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+i {
+	margin-right: 10px;
+}
+
+.jumbotron {
+  background-image: url(bilder/aviciijumbo3.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  box-shadow: 0 0 100px 100px white inset;
+  animation: fadeInAnimation ease 4s; 
+  animation-iteration-count: 1; 
+  animation-fill-mode: forwards; 
+  margin-top: -100px;
+  
+  
+}
+
+@keyframes fadeInAnimation { 
+    0% { 
+      opacity: 0; 
+    } 
+    100% { 
+      opacity: 1; 
+    } 
+}
+
+
+/*BILDERNDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+--------------------------------------------
+---------------------------------------------
+-------------------------------------------------*/
+
+#aviciilogo{
+	width: 100%;
+	max-width: 150px;
+	height: auto;
+}
+
+.navbar .navbar-header,
+.navbar-collapse {
+    float:none;
+    display:inline-block;
+    vertical-align: top;
+    padding-left: 0;
+    padding-right: 0;
+	margin-top: 10px;
+	z-index: 2;
+	position: relative;	
+}
+
+@media (max-width: 768px) {
+    .navbar-collapse  {
+        display: block;
+    }
+}
+
+#h2box{
+	display: flex;
+    justify-content: center;
+}
+
+#pianobox{
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: -25px;
+  width: 100%;
+  box-shadow: 25px 25px 50px 0 white inset, -25px -25px 50px 0 white inset;
+}
+
+h2 {
+	font-family: 'Righteous', cursive;
+	
+}
+
+#songcontainer{
+	width: 50%;
+}
+
+#spotifylist{
+	padding-top: 50px;
+	width: 70%; 
+	height: 500px;
+}
+
+#worksh2{
+	text-align: center;
+	margin-left: -25px;
+	padding-bottom: 20px;
+}
+
+
+
+@media screen and (max-width:900px) /*for small screen like mobile*/
+{
+   .user-menu-link-label
+   {
+      font-size: 30px; /*adjust as per requirement*/
+	  color: white;
+   }
+}
+
+@media screen and (min-width:901px)  /*for screen larger than mobile*/
+{
+   .user-menu-link-label
+   {
+      font-size: 60px; /*adjust as per requirement*/
+	  color: white;
+	  margin-left: 100px;
+   }
+}
+
+@media screen and (max-width:900px) /*for small screen like mobile*/
+{
+   .user-menu-link-label2
+   {
+      font-size: 30px; /*adjust as per requirement*/
+	  margin-top: 400px; 
+	  vertical-align: middle;
+	text-align: center;
+   }
+}
+
+@media screen and (min-width:901px)  /*for screen larger than mobile*/
+{
+   .user-menu-link-label2
+   {
+      font-size: 60px; /*adjust as per requirement*/
+	  margin-top: 600px; 
+	  vertical-align: middle;
+	text-align: center;
+   }
+}
+
+@media only screen and (min-width: 701px) {
+	.parallax{
+		background-image: url("bilder/greyavicii.png");
+	}
+}
+
+@media only screen and (max-width: 700px) {
+	.parallax{
+		background-image: url("bilder/greyavicii2.png");
+	}
+}
+
+.parallax {
+  /* The image used */
+  
+  
+
+  /* Set a specific height */
+  height: 7000px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+@media only screen and (max-width: 1500px) {
+#colcontainer{
+	width: 100%;
+	margin-left: 0%;
+}
+}
+
+@media only screen and (min-width: 1501px) {
+#colcontainer{
+	width: 100%;
+	margin-left: -20%;
+}
+}
+
+#wrap {
+  width: 900px;
+  margin: 15px;
+  background: #fff;
+  border-radius: 2px;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.15);
+}
+
+@media only screen and (max-width: 980px) {
+  #wrap {
+    width: 700px;
+  }
+}
+
+@media only screen and (max-width: 780px) {
+  #wrap {
+    width: 500px;
+  }
+}
+
+@media only screen and (max-width: 580px) {
+  #wrap {
+    width: 300px;
+  }
+}
+
+
+
+#containershop{
+	width: 50%;
+	margin-top: -25px;
+}
+
+#shopcard{
+	
+}
+
+#shoptext{
+	text-align: center;
+}
+
+
+
+
+
+#shopbredd{
+	
+}
+}
+
+@media only screen and (min-width: 1501px) {
+#shopbredd{
+	
+}
+}
+
+
+
+@media only screen and (max-width: 400px) {
+input {
+ width: 300px;
+  font-size: 20px;
+  margin-bottom: 5vh;
+  border-right: none;
+  border-top: none;
+  border-left: none;
+  background-color:transparent;
+  outline: none;
+  color: white;
+  caret-color: white;
+  font-family: 'Righteous', cursive;
+}
+
+input[type=text]::placeholder {
+  text-align: center;
+  color: white;
+}
+
+input[type=submit] {
+  background: rgba(255,255,255,.2);
+  width: 100px;
+  padding: 2vh;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px 4px;
+
+}
+
+input[type=reset] {
+  background: rgba(255,255,255,.2);
+  width: 100px;
+  padding: 2vh;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px 4px;
+}
+}
+
+@media only screen and (min-width: 401px) {
+input {
+ width: 300px;
+  font-size: 30px;
+  margin-bottom: 5vh;
+  border-right: none;
+  border-top: none;
+  border-left: none;
+  background-color:transparent;
+  outline: none;
+  color: white;
+  caret-color: white;
+  font-family: 'Righteous', cursive;
+}
+
+input[type=text]::placeholder {
+  text-align: center;
+  color: white;
+}
+
+input[type=submit] {
+  background: rgba(255,255,255,.2);
+  width: 150px;
+  padding: 2vh;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px 4px;
+
+}
+
+input[type=reset] {
+  background: rgba(255,255,255,.2);
+  width: 150px;
+  padding: 2vh;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px 4px;
+}
+}
+.inline {
+  display: inline-block; 
+}
+
+
+@media only screen and (min-width: 401px) {
+#storyboard{
+	width: 400px;
+}
+#antiknapp{
+font-size: 30px;	
+width: 150px;	
+}
+#varning{
+	margin-top: 350px;
+}
+}
+
+@media only screen and (max-width: 400px) {
+#storyboard{
+width: 300px;
+}
+#antiknapp{
+font-size: 20px;
+width: 100px;	
+}
+#varning{
+	margin-top: 200px;
+
+}
+}
+
+#antiknapp{
+	background: rgba(255,255,255,.2);
+	
+  padding: 2vh;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px 4px;
+  font-family: 'Righteous', cursive;
+  color: white;
+}
+
+#trianglebutton{
+background-color: #00000080;
+color: #fff;
+
+}
+
+.fa-instagram {
+
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+	color: black;
+
+}
+
+.fa-spotify {
+
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+	color: black;
+	margin-top: 30px;
+
+}
+
+.fa-twitter {
+
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+	color: black;
+	margin-top: 60px;
+
+}
+
+.fa-youtube {
+
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+	color: black;
+	margin-top: 90px;
+
+}
+
+
+.fa:hover {
+  color: black;
+}
+
+#topright{
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  font-size: 18px;
+  z-index: 3;
+}
+
+
+
+
+
+
+
+
+
+
+
+
